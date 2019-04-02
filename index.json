@@ -1,11 +1,12 @@
 {
   "title": "First attempt to work with katacoda",
   "description": "Making an attempt to work with katacoda",
+  "time": "2 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Step 1 - Run Command",
+      	"text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -24,9 +25,10 @@
     }
   },
   "environment": {
-    "uilayout": ""
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": ""
+    "imageid": "bash"
   }
 }
